@@ -1,0 +1,99 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>My AMP Page</title>
+    <link rel="canonical" href="self.html" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript>
+      <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+    </noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+    <style amp-custom>
+      html {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center
+      }
+      *,
+      :after,
+      :before {
+      box-sizing: inherit
+      }
+      :root {
+      --body-bg: #fafafa;
+      --grey-light: #e6e6e6;
+      --brand-blue: #4c51eb
+      }
+      body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue;
+      background: var(--body-bg);
+      width: 100%
+      }
+      header {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      margin: 1em 0
+      }
+      a {
+      text-decoration: none
+      }
+      a:visited {color: initial;}
+      header>small {
+      margin-left: 6em
+      }
+      h1 {
+      font-style: italic;
+      font-size: 2.5em;
+      color: var(--brand-blue);
+      margin: 0 .25em
+      }
+      h1 > amp-img {
+      height: 1.5em;
+      width: auto
+      }
+      figure {
+      margin: 0;
+      max-width: 500px;
+      }
+      figure amp-img {
+      width: 100%;
+      object-fit: cover;
+      background-color: var(--grey-light)
+      }
+      .container {
+      background: #fff;
+      border: 1px solid var(--grey-light);
+      border-radius: .25em;
+      overflow: hidden;
+      margin-bottom: 2.5em
+      }
+      figcaption {
+      font-size: .9em;
+      padding: .25em;
+      text-align: center
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://googlechromelabs.github.io/affilicats/">
+      <header>
+        <h1>
+          <amp-img width="60" height="60" alt="" src="https://googlechromelabs.github.io/affilicats/img/cat.png"></amp-img>
+          AffiliCats
+        </h1>
+        <small>Find the cutest cats online!</small>
+      </header>
+    </a>
+    <a href="https://googlechromelabs.github.io/affilicats/">
+      <figure class="container">
+        <amp-img width="500" height="375" layout="responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cat%27s_face.jpg/500px-Cat%27s_face.jpg?41117356188851306"></amp-img>
+        <figcaption>Click through to get amazing cat offers!</figcaption>
+      </figure>
+    </a>
+    <amp-install-serviceworker data-iframe-src="https://googlechromelabs.github.io/affilicats/" src="https://googlechromelabs.github.io/affilicats/sw.js" layout="nodisplay"></amp-install-serviceworker>
+  </body>
+</html>
