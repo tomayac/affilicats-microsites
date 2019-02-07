@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is the AffiliCats HTML microsite</title>
+    <link rel="canonical" href="index.html" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="This is the AffiliCats HTML microsite" />
+    <style>
+      html {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center
+      }
+      *,
+      :after,
+      :before {
+      box-sizing: inherit
+      }
+      :root {
+      --body-bg: #fafafa;
+      --grey-light: #e6e6e6;
+      --brand-blue: #4c51eb
+      }
+      body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue;
+      background: var(--body-bg);
+      width: 100%
+      }
+      header {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      margin: 1em 0
+      }
+      a {
+      text-decoration: none
+      }
+      a:visited {color: initial;}
+      header>small {
+      margin-left: 6em
+      }
+      h1 {
+      font-style: italic;
+      font-size: 2.5em;
+      color: var(--brand-blue);
+      margin: 0 .25em
+      }
+      h1 > img {
+      height: 1.5em;
+      width: auto
+      }
+      figure {
+      margin: 0;
+      max-width: 500px;
+      }
+      figure img {
+      width: 100%;
+      object-fit: cover;
+      background-color: var(--grey-light)
+      }
+      .container {
+      background: #fff;
+      border: 1px solid var(--grey-light);
+      border-radius: .25em;
+      overflow: hidden;
+      margin-bottom: 2.5em
+      }
+      figcaption {
+      font-size: .9em;
+      padding: .25em;
+      text-align: center
+      }
+      iframe {
+      width: 0;
+      height: 0;
+      border: none;      
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://googlechromelabs.github.io/affilicats/">
+      <header>
+        <h1>
+          <img width="60" height="60" alt="" src="https://googlechromelabs.github.io/affilicats/img/cat.png">
+          AffiliCats
+        </h1>
+        <small>Find the cutest cats online!</small>
+      </header>
+    </a>
+    <a href="https://googlechromelabs.github.io/affilicats/">
+      <figure class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cat%27s_face.jpg/500px-Cat%27s_face.jpg?41117356188851306">
+        <figcaption>Click through to get amazing cat offers!</figcaption>
+      </figure>
+    </a>
+    <iframe src="https://googlechromelabs.github.io/affilicats/"></iframe>
+  </body>
+</html>
