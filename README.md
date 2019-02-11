@@ -18,3 +18,5 @@ Uncaught (in promise) Resource: failed to build: amp-install-serviceworker#1: da
 (https://googlechromelabs.github.io) should be a URL on the same origin as the source
 (https://tomayac.github.io) or canonical URL (https://tomayac.github.io) of the AMP-document.
 ```
+
+<img width="400" src="https://github.com/tomayac/affilicats-microsites/blob/master/serp.png" alt="Search Engine Results Page showing the microsites">
